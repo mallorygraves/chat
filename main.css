@@ -1,20 +1,21 @@
-body{
-    margin: 0;
-    height: 100vh;
-}
+.chat-stream{
+    height: 66vh;
 
-.app{
-    height: 90vh;
+    background-color: hotpink;
+    border: 5px solid black;
 
-display: grid;
-grid-template-columns: repeat(32, 1fr);
-grid-template-rows: repeat(32, 1fr);
-gap: 1px 1px;
-}
+    display: flex;
+    align-items: flex-end;
 
-.app > div{
-    font-size: 2px;
     overflow: hidden;
-    border: 1px solid rgb(79, 11, 240);
-    background-size: cover;
+}
+
+h1{
+    background-color: white;
+    border: 5px solid black;
+}
+
+div{
+    background-color: black;
+    border: 5px solid black;
 }
